@@ -34,7 +34,7 @@ This repo is maintained by **🦀 lobsters/claws**, not by a conventional human-
 In practice, that means this project is not just *about* coding agents — it is being **actively built by them 🤖🔥**.
 
 Features, tests, telemetry, docs, and workflow hardening are landed through claw-driven loops using:
-- 🧠 clawhip  
+- 🧠 claudeship  
 - 🤖 oh-my-openagent  
 - ⚙️ oh-my-claudecode  
 - 💡 oh-my-codex  
