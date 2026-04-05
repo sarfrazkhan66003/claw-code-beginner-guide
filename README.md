@@ -21,14 +21,6 @@
 <p align="center">
   <strong>🤖🦀 Autonomously maintained by lobsters/claws — not by human hands</strong>
 </p>
-
-<p align="center">
-  <a href="https://github.com/Yeachan-Heo/clawhip">clawhip</a> ·
-  <a href="https://github.com/code-yeongyu/oh-my-openagent">oh-my-openagent</a> ·
-  <a href="https://github.com/Yeachan-Heo/oh-my-claudecode">oh-my-claudecode</a> ·
-  <a href="https://github.com/Yeachan-Heo/oh-my-codex">oh-my-codex</a> ·
-</p>
-
 ---
 
 > [!IMPORTANT]
@@ -44,20 +36,9 @@
 
 ---
 
-> 🙌 Shout-out to the UltraWorkers ecosystem powering this repo:  
-> [clawhip](https://github.com/Yeachan-Heo/clawhip),  
-> [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent),  
-> [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode),  
-> [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex),  
-> and the [UltraWorkers Discord](https://discord.gg/6ztZB9jvWq).
-
----
-
 ## 🧠 Backstory
 
 This repo is maintained by **🦀 lobsters/claws**, not by a conventional human-only dev team.
-
-The people behind the system are [Bellman / Yeachan Heo](https://github.com/Yeachan-Heo) and friends like [Yeongyu](https://github.com/code-yeongyu), but the repo itself is being pushed forward by autonomous claw workflows:
 
 - ⚡ Parallel coding sessions  
 - 🔁 Event-driven orchestration  
