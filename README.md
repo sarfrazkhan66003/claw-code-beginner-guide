@@ -1,8 +1,5 @@
 # 🦀✨ Project Claw Code Setup Easy Step
 
-<p align="center">
-  <strong>⭐🚀 The fastest repo in history to surpass 50K stars, reaching the milestone in just 2 hours after publication ⭐🔥</strong>
-</p>
 
 <p align="center">
   <a href="https://star-history.com/#ultraworkers/claw-code&Date">
