@@ -1,7 +1,7 @@
-# Rewriting Project Claw Code
+# 🦀✨ Rewriting Project Claw Code
 
 <p align="center">
-  <strong>⭐ The fastest repo in history to surpass 50K stars, reaching the milestone in just 2 hours after publication ⭐</strong>
+  <strong>⭐🚀 The fastest repo in history to surpass 50K stars, reaching the milestone in just 2 hours after publication ⭐🔥</strong>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <strong>Autonomously maintained by lobsters/claws — not by human hands</strong>
+  <strong>🤖🦀 Autonomously maintained by lobsters/claws — not by human hands</strong>
 </p>
 
 <p align="center">
@@ -30,79 +30,107 @@
   <a href="https://discord.gg/6ztZB9jvWq">UltraWorkers Discord</a>
 </p>
 
+---
+
 > [!IMPORTANT]
-> The active Rust workspace now lives in [`rust/`](./rust). Start with [`USAGE.md`](./USAGE.md) for build, auth, CLI, session, and parity-harness workflows, then use [`rust/README.md`](./rust/README.md) for crate-level details.
-
-> Want the bigger idea behind this repo? Read [`PHILOSOPHY.md`](./PHILOSOPHY.md) and Sigrid Jin's public explanation: https://x.com/realsigridjin/status/2039472968624185713
-
-> Shout-out to the UltraWorkers ecosystem powering this repo: [clawhip](https://github.com/Yeachan-Heo/clawhip), [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent), [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode), [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex), and the [UltraWorkers Discord](https://discord.gg/6ztZB9jvWq).
+> ⚙️ The active Rust workspace now lives in [`rust/`](./rust).  
+> 👉 Start with [`USAGE.md`](./USAGE.md) for build, auth, CLI, session, and parity-harness workflows  
+> 👉 Then use [`rust/README.md`](./rust/README.md) for crate-level details.
 
 ---
 
-## Backstory
+> 💡 Want the bigger idea behind this repo?  
+> 📖 Read [`PHILOSOPHY.md`](./PHILOSOPHY.md) and Sigrid Jin's public explanation:  
+> https://x.com/realsigridjin/status/2039472968624185713
 
-This repo is maintained by **lobsters/claws**, not by a conventional human-only dev team.
+---
 
-The people behind the system are [Bellman / Yeachan Heo](https://github.com/Yeachan-Heo) and friends like [Yeongyu](https://github.com/code-yeongyu), but the repo itself is being pushed forward by autonomous claw workflows: parallel coding sessions, event-driven orchestration, recovery loops, and machine-readable lane state.
+> 🙌 Shout-out to the UltraWorkers ecosystem powering this repo:  
+> [clawhip](https://github.com/Yeachan-Heo/clawhip),  
+> [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent),  
+> [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode),  
+> [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex),  
+> and the [UltraWorkers Discord](https://discord.gg/6ztZB9jvWq).
 
-In practice, that means this project is not just *about* coding agents — it is being **actively built by them**. Features, tests, telemetry, docs, and workflow hardening are landed through claw-driven loops using [clawhip](https://github.com/Yeachan-Heo/clawhip), [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent), [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode), and [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex).
+---
 
-This repository exists to prove that an open coding harness can be built **autonomously, in public, and at high velocity** — with humans setting direction and claws doing the grinding.
+## 🧠 Backstory
 
-See the public build story here:
+This repo is maintained by **🦀 lobsters/claws**, not by a conventional human-only dev team.
 
+The people behind the system are [Bellman / Yeachan Heo](https://github.com/Yeachan-Heo) and friends like [Yeongyu](https://github.com/code-yeongyu), but the repo itself is being pushed forward by autonomous claw workflows:
+
+- ⚡ Parallel coding sessions  
+- 🔁 Event-driven orchestration  
+- 🔄 Recovery loops  
+- 📊 Machine-readable lane state  
+
+In practice, that means this project is not just *about* coding agents — it is being **actively built by them 🤖🔥**.
+
+Features, tests, telemetry, docs, and workflow hardening are landed through claw-driven loops using:
+- 🧠 clawhip  
+- 🤖 oh-my-openagent  
+- ⚙️ oh-my-claudecode  
+- 💡 oh-my-codex  
+
+👉 This repository exists to prove that an open coding harness can be built **autonomously, in public, and at high velocity 🚀**
+
+📢 See the public build story here:  
 https://x.com/realsigridjin/status/2039472968624185713
 
 ![Tweet screenshot](assets/tweet-screenshot.png)
 
 ---
 
-## Porting Status
+## 🔄 Porting Status
 
-The main source tree is now Python-first.
+The main source tree is now **Python-first 🐍**
 
-- `src/` contains the active Python porting workspace
-- `tests/` verifies the current Python workspace
-- the exposed snapshot is no longer part of the tracked repository state
+- 📂 `src/` → Active Python workspace  
+- ✅ `tests/` → Verification  
+- 🚫 Exposed snapshot removed  
 
-The current Python workspace is not yet a complete one-to-one replacement for the original system, but the primary implementation surface is now Python.
+---
 
-## Why this rewrite exists
+## ❓ Why this rewrite exists
 
-I originally studied the exposed codebase to understand its harness, tool wiring, and agent workflow. After spending more time with the legal and ethical questions—and after reading the essay linked below—I did not want the exposed snapshot itself to remain the main tracked source tree.
+- 📚 Studied exposed codebase  
+- ⚖️ Considered legal & ethical aspects  
+- 🔄 Shifted focus to clean Python implementation  
 
-This repository now focuses on Python porting work instead.
+👉 This repo now focuses on **Python porting work 🐍✨**
 
-## 📂 🚀 Your Repository Layout (Explained)
+---
+
+## 📂 🚀 Repository Layout (Explained)
 
 ```text
 claw-code-main/
 │
-├── .claude/                # 🤖 Claude related configs / hidden system files
-├── .github/                # ⚙️ GitHub workflows (CI/CD, actions)
-├── assets/                 # 🖼️ Images, icons, screenshots
+├── .claude/                # 🤖 Claude configs
+├── .github/                # ⚙️ GitHub workflows
+├── assets/                 # 🖼️ Images & assets
 │
-├── claw-code/              # 🧠 Core project (main AI agent logic)
-├── rust/                   # 🦀 Rust CLI implementation (main engine)
-├── src/                    # 🐍 Python modules (tools & features)
-├── tests/                  # ✅ Testing files (check if code works)
+├── claw-code/              # 🧠 Core logic
+├── rust/                   # 🦀 Rust CLI engine
+├── src/                    # 🐍 Python modules
+├── tests/                  # ✅ Testing files
 │
-├── .claude.json            # ⚙️ Claude configuration file
-├── .gitignore              # 🚫 Ignore unwanted files
+├── .claude.json            # ⚙️ Config file
+├── .gitignore              # 🚫 Ignore files
 │
-├── CLAUDE.md               # 📘 Claude system explanation
-├── PARITY.md               # 🔍 Feature comparison / parity check
-├── PHILOSOPHY.md           # 🧠 Design thinking & concept
+├── CLAUDE.md               # 📘 System explanation
+├── PARITY.md               # 🔍 Feature comparison
+├── PHILOSOPHY.md           # 🧠 Design concepts
 │
-├── README.md               # 📄 Main project guide (MOST IMPORTANT)
-├── ROADMAP.md              # 🗺️ Future plans & features
-├── USAGE.md                # 📖 How to use the project
+├── README.md               # 📄 Main guide
+├── ROADMAP.md              # 🗺️ Future plans
+├── USAGE.md                # 📖 Usage guide
 │
-├── Claude AI Setup in your laptop.pdf   # 📚 Your beginner guide (VERY GOOD 🔥)
-├── claude_code_leak_guide_v2.pdf        # 📄 Reference document
+├── Claude AI Setup in your laptop.pdf   # 📚 Beginner guide 🔥
+├── claude_code_leak_guide_v2.pdf        # 📄 Reference doc
 │
-└── push_output.txt         # 📝 Logs / output file (optional)
-```
+└── push_output.txt         # 📝 Logs (optional)
 
 ## Python Workspace Overview
 
