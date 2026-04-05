@@ -161,7 +161,7 @@ The restructuring and documentation work on this repository was AI-assisted and 
 - **`$ralph` mode:** used for persistent execution, verification, and completion discipline
 - **Codex-driven workflow:** used to turn the main `src/` tree into a Python-first porting workspace
 
-[ main repo : https://github.com/ultraworkers/claw-code ]
+![ main repo : https://github.com/ultraworkers/claw-code ]
 
 ### OmX workflow screenshots
 
