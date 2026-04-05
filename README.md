@@ -73,23 +73,35 @@ I originally studied the exposed codebase to understand its harness, tool wiring
 
 This repository now focuses on Python porting work instead.
 
-## Repository Layout
+## 📂 🚀 Your Repository Layout (Explained)
 
 ```text
-.
-├── src/                                # Python porting workspace
-│   ├── __init__.py
-│   ├── commands.py
-│   ├── main.py
-│   ├── models.py
-│   ├── port_manifest.py
-│   ├── query_engine.py
-│   ├── task.py
-│   └── tools.py
-├── tests/                              # Python verification
-├── assets/omx/                         # OmX workflow screenshots
-├── 2026-03-09-is-legal-the-same-as-legitimate-ai-reimplementation-and-the-erosion-of-copyleft.md
-└── README.md
+claw-code-main/
+│
+├── .claude/                # 🤖 Claude related configs / hidden system files
+├── .github/                # ⚙️ GitHub workflows (CI/CD, actions)
+├── assets/                 # 🖼️ Images, icons, screenshots
+│
+├── claw-code/              # 🧠 Core project (main AI agent logic)
+├── rust/                   # 🦀 Rust CLI implementation (main engine)
+├── src/                    # 🐍 Python modules (tools & features)
+├── tests/                  # ✅ Testing files (check if code works)
+│
+├── .claude.json            # ⚙️ Claude configuration file
+├── .gitignore              # 🚫 Ignore unwanted files
+│
+├── CLAUDE.md               # 📘 Claude system explanation
+├── PARITY.md               # 🔍 Feature comparison / parity check
+├── PHILOSOPHY.md           # 🧠 Design thinking & concept
+│
+├── README.md               # 📄 Main project guide (MOST IMPORTANT)
+├── ROADMAP.md              # 🗺️ Future plans & features
+├── USAGE.md                # 📖 How to use the project
+│
+├── Claude AI Setup in your laptop.pdf   # 📚 Your beginner guide (VERY GOOD 🔥)
+├── claude_code_leak_guide_v2.pdf        # 📄 Reference document
+│
+└── push_output.txt         # 📝 Logs / output file (optional)
 ```
 
 ## Python Workspace Overview
