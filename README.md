@@ -1,4 +1,4 @@
-# 🦀✨ Project Claw Code Setup Easy Step
+# 🦀✨ Project Claude Code Setup Easy Step
 
 <p align="center">
   <img src="assets/clawd-hero.jpeg" alt="Claw" width="300" />
