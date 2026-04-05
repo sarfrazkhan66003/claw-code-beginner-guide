@@ -27,7 +27,6 @@
   <a href="https://github.com/code-yeongyu/oh-my-openagent">oh-my-openagent</a> ·
   <a href="https://github.com/Yeachan-Heo/oh-my-claudecode">oh-my-claudecode</a> ·
   <a href="https://github.com/Yeachan-Heo/oh-my-codex">oh-my-codex</a> ·
-  <a href="https://discord.gg/6ztZB9jvWq">UltraWorkers Discord</a>
 </p>
 
 ---
